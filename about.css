@@ -1,0 +1,98 @@
+body {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background: linear-gradient(to right, #f1e5c9, #ffffff);
+  margin: 0;
+  color: #3e2a14;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #6b4c2b;
+}
+
+nav a {
+  text-decoration: none;
+  color: #6b4c2b;
+  margin-left: 20px;
+  font-weight: 600;
+}
+
+nav a:hover, nav a.active {
+  color: #a67c3c;
+}
+
+.login-btn {
+  background: #8c6a2e;
+  color: white !important;
+  padding: 6px 14px;
+  border-radius: 5px;
+}
+
+/* About intro */
+.about-intro {
+  text-align: center;
+  padding: 80px 20px 40px;
+}
+
+.about-intro h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.about-intro p {
+  font-size: 18px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Genre sections */
+.genre-section {
+  padding: 40px 80px;
+}
+
+.genre-section h2 {
+  font-size: 28px;
+  color: #5a3e1b;
+  margin-bottom: 20px;
+}
+
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.book-card {
+  display: flex;
+  background: #fffaf0;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  width: 30%;
+  min-width: 250px;
+  padding: 10px;
+}
+
+.book-card img {
+  width: 120px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 15px;
+}
+
+.book-info h3 {
+  margin: 0;
+  color: #5a3e1b;
+}
+
+.book-info p {
+  margin: 4px 0;
+  font-size: 14px;
+}

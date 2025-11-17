@@ -1,0 +1,156 @@
+
+body {
+    background-color: #f7f3ec;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.box {
+    background-color: #fffaf3;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border: 2px solid #d8cbb3;
+    border-radius: 12px;
+    width: 400px;
+    padding: 30px 40px;
+    margin-top: 300px;
+    text-align: center;
+}
+
+.box h2 {
+    color: #5a3e1b;
+    margin-bottom: 5px;
+}
+
+.box h3, .box h4 {
+    font-weight: normal;
+    color: #7b5e2e;
+    margin-bottom: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+label {
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 2px;
+}
+
+input {
+    padding: 8px 10px;
+    font-size: 14px;
+    border: 1px solid #cbb89e;
+    border-radius: 6px;
+    background-color: #fff;
+    transition: 0.2s;
+}
+
+input:focus {
+    outline: none;
+    border-color: #9b7c43;
+    box-shadow: 0 0 4px rgba(155, 124, 67, 0.4);
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #cbb89e;
+}
+
+select:focus {
+    outline: none;
+    border-color: #9b7c43;
+    box-shadow: 0 0 4px rgba(155, 124, 67, 0.4);
+}
+
+/* Button styling */
+button {
+    background-color: #8c6a2e;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    margin-top: 12px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #a9813a;
+}
+
+.press {
+    background-color: #8c6a2e;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    margin-top: 12px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+
+/* RECCOMENDATION CODE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+th {
+    background: #f4d7a4;      /* Warm soft gold */
+    color: #333;
+    padding: 12px;
+    text-align: left;
+    font-size: 16px;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    font-size: 15px;
+}
+
+tr:hover {
+    background: #fff6e7;
+}
+
+tr:nth-child(even) {
+    background: #faf6ee;
+}
+
+td a {
+    margin-right: 10px;
+    padding: 6px 10px;
+    background: #ffcc80;
+    color: #000;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+td a:hover {
+    background: #ffb74d;
+}

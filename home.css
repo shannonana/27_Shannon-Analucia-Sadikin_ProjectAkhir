@@ -1,0 +1,77 @@
+
+/* --- HEADER STYLING --- */
+header {
+  width: 100%;
+  background-color: rgba(255, 250, 243, 0.9); /* subtle cream overlay */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* --- LOGO --- */
+.logo {
+  font-family: 'Georgia', serif;
+  font-size: 26px;
+  font-weight: bold;
+  color: #5a3e1b; /* warm brown, bookish tone */
+  letter-spacing: 1px;
+}
+
+/* --- NAV LINKS --- */
+nav a {
+  text-decoration: none;
+  color: #5a3e1b;
+  margin-left: 25px;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #a67c3c; /* goldish hover */
+}
+
+/* --- LOGIN BUTTON --- */
+.login-btn {
+  background-color: #8c6a2e;
+  color: #fff !important;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+.login-btn:hover {
+  background-color: #a9813a;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f6f2eb;
+    color: #5a3e1b;
+    font-size: 0.9em;
+    margin-top: 40px;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+
+
+.index {
+    flex: 1;
+    padding-top: 120px;
+}
